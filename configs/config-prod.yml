@@ -1,1 +1,2 @@
-config-name: prod
+config:
+  name: prod
