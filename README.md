@@ -15,3 +15,8 @@ eureka-server
 eureka-client
 
 eureka-consumer
+
+# 断路器
+eureka-consumer-hystrix
+
+hystrix-dashboard
