@@ -21,6 +21,11 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>eureka-server</module>
+        <module>eureka-client</module>
+        <module>eureka-consumer</module>
+        <module>eureka-consumer-hystrix</module>
+        <module>hystrix-dashboard</module>
+        <module>zuul-service</module>
     </modules>
 
     <properties>
