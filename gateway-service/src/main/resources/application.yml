@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: baidu_route
+          uri: https://www.baidu.com
+          predicates:
+            - Path=/baidu
