@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>eurekaconsumer</artifactId>
+    <artifactId>eureka-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eurekaconsumer</name>
+    <name>eureka-consumer</name>
     <description>Demo project for Spring Cloud Eureka Client</description>
 
     <properties>

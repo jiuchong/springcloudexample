@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>eurekaserver</artifactId>
+    <artifactId>eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eurekaserver</name>
+    <name>eureka-server</name>
     <description>Demo project for Spring Cloud Eureka</description>
 
     <properties>
