@@ -1,0 +1,24 @@
+version: '3'
+services:
+  eureka-server:
+    image: spring-cloud-example/eurekaserver:0.0.1-SNAPSHOT
+    hostname: eurekaserver
+    ports:
+      - "8761:8761"
+
+  eureka-client:
+    image: spring-cloud-example/eurekaclient:0.0.1-SNAPSHOT
+    hostname: eurekaclient
+    ports:
+      - "8083:8083"
+    depends_on:
+      - eureka-server
+
+  eureka-consumer:
+    image: spring-cloud-example/eurekaconsumer:0.0.1-SNAPSHOT
+    hostname: eurekaconsumer
+    ports:
+      - "8084:8084"
+    depends_on:
+      - eureka-server
+      - eureka-client
