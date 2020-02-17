@@ -19,3 +19,6 @@
 
 # 服务网关
 + zuul-service https://www.blackme.cn/archives/25/
+
+# 授权服务
++ security-oauth2 https://www.blackme.cn/archives/39/
