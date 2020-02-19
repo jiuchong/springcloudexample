@@ -74,7 +74,7 @@ public class OAuth2ServerConfig {
                     .refreshTokenValiditySeconds(7200)// 刷新token的有效期
                     .redirectUris("https://www.baidu.com")// 授权成功后跳转uri
                     .scopes("all")// 权限范围
-                    .authorizedGrantTypes("authorization_code","password");// 授权类型
+                    .authorizedGrantTypes("authorization_code","password", "refresh_token");// 授权类型
         }
 
         @Override

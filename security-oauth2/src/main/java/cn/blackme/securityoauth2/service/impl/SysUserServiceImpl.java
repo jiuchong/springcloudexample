@@ -14,7 +14,7 @@ public class SysUserServiceImpl implements SysUserService {
 
     @Override
     public void insertUser(SysUser sysUser) {
-        sysUserMapper.insert(sysUser);
+        sysUserMapper.insertSelective(sysUser);
     }
 
     @Override
